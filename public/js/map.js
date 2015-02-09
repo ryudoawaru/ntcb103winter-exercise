@@ -8,7 +8,7 @@ var googleMap = function () {
 
         var mapOptions = {
             // How zoomed in you want the map to start at (always required)
-            zoom: 11,
+            zoom: 17,
             zoomControlOptions: {
                 style: google.maps.ZoomControlStyle.SMALL
             },
