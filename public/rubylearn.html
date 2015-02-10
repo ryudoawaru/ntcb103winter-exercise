@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Web Design</title>
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+<style>
+body {
+	margin:0;
+	padding:0;
+	border:0;
+	min-height:100%;
+	min-width:100%;
+	text-align: center;
+}
+.pft{
+	width:80%;
+	height:5%;	
+    position:fixed;
+    top:0;
+	left:10%;
+	right:10%;	
+}
+.navbar {
+	text-align:right;
+	font-size:20px;
+	font-family: 'Indie Flower', cursive;;
+}
+ul,li {
+	list-style:none;
+	display:inline;	
+}
+a {
+	text-decoration:none;
+}
+.bag {
+	width:80%;
+	margin:0 auto;
+}
+.container {
+    font-size:20px;
+	width:70%;
+	margin:0 auto;
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color:#aa6539;
+}
+.header {
+	border-radius:0 30px 40px 80px;	
+	text-align:left;
+	padding-top:5%;
+	font-size:50px;
+    font-weight:bold;
+}
+.footer{
+	border-radius:80px 50px 0 0;
+	text-align:left;
+    font-size:20px;
+	font-family: 'Lobster', cursive;
+	text-align:center;
+}
+.con {
+	font-family:標楷體;
+	border-radius:20px 20px 20px 20px;
+    color:#552100;
+    background-color:#ffcbaa;
+	box-shadow:0 5px 10px #ffcbaa;
+	padding:20px;
+	margin:20px 0 20px 0;
+	text-align:left;
+	}
+logo {
+    font-family: 'Indie Flower', cursive;
+	position:relative;
+	left:11%;	
+	  }
+t {
+	font-size:30px;
+	font-weight:bold;
+	text-shadow:2px 1px 1px #803f15;
+	}
+</style>
+</head>
+<body>   
+   <div class="bag" style="background-color:#aa6539;">
+       <div class="pft">
+          <div class="navbar" style="background-color:#d4946a; color:#FFF;">
+              Copyright haveagoodday8496 2015/02/06 Since                      
+          </div>
+       </div>  
+       <div class="header" style="background-color:#d4946a;">
+          <logo style="color:#552e00;">Just talking about Ruby</logo>
+       </div>       
+       <div class="container">      
+          <div class="con">
+                        <t> 打造Ruby學習環境有以下三種方法<br/><br/> </t>
+                
+                  1.網路連上https://www.nitrous.io/，需註冊才可使用線上版<br/><br/>            
+                 2.Ubuntu OS，指令為 sudo apt-get install ruby
+                 
+                 如果是選擇此的人，需再安裝打程式碼的記事本 <br/><br/>
+                 
+                 例如：Vim 、 Emacs 、 Sublime text... 等等  <br/><br/>        
+              3.Mac電腦
+          </div>
+          <div class="con">
+               <t>變數<br/><br/></t>
+               常數 大寫開頭 / 變數 小寫開頭 <br/><br/>
+
+直接宣告變數 區域變數:存活只在方法(function)之內<br/><br/>
+
+$宣告變數 全域變數:存活在不同方法(function),跟類別變數類似 <br/><br/>
+
+@@宣告變數  類別變數:存活在不同方法(function),跟全域變數類似 <br/><br/>
+@宣告變數 實體變數:存活在不同方法(function),但只能在方法(function)內設值才有傳入
+          </div>
+      </div>   
+      <div class="footer" style="background-color:#d4946a; color:#aa7639;">
+        It is Not a Footer,I think it is a Funny Idea.
+      </div>
+   </div>   
+</body>
+</html>
