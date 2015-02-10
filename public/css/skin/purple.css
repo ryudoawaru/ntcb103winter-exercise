@@ -15,12 +15,12 @@
  */
 /* Selected text */
 ::-moz-selection {
-  background: #800080;
+  background:#C8BFE7;
   color: #ffffff;
   text-shadow: none;
 }
 ::selection {
-  background: #800080;
+  background: #C8BFE7;
   color: #ffffff;
   text-shadow: none;
 }
@@ -46,8 +46,8 @@ a:hover,
 }
 .loader:after {
   border: solid 1px transparent;
-  border-top-color: #800080;
-  border-left-color: #800080;
+  border-top-color: #C8BFE7;
+  border-left-color: #C8BFE7;
 }
 .tags ul li a {
   border: 1px solid #800080;
@@ -55,7 +55,7 @@ a:hover,
 /* Skin button style */
 .btn-color {
   color: #ffffff;
-  background-color: #800080;
+  background-color: #C8BFE7;
   border-color: #800080;
 }
 .btn-color:hover,
@@ -69,13 +69,13 @@ a:hover,
 }
 .btn-color.btn-outline {
   background-color: transparent;
-  color: #800080;
+  color: #C8BFE7;
 }
 .btn-color.btn-outline:hover,
 .btn-color.btn-outline:focus,
 .btn-color.btn-outline:active,
 .btn-color.btn-outline.active {
-  background-color: #800080;
+  background-color: #C8BFE7;
   color: #ffffff;
 }
 a.btn-color {
@@ -101,22 +101,22 @@ fieldset[disabled] .btn-color:active,
 .btn-color.disabled.active,
 .btn-color[disabled].active,
 fieldset[disabled] .btn-color.active {
-  background-color: #800080;
+  background-color:#C8BFE7;
   border-color: #800080;
 }
 /*********************/
 /* Skin text and dropcap color style */
 .color,
 .drop-cap {
-  color: #800080;
+  color: #C8BFE7;
 }
 /*********************/
 .drop-cap.boxed {
-  background-color: #800080;
+  background-color: #C8BFE7;
   color: #fff;
 }
 .portfolio-item .overlay-hover {
-  background-color: #800080;
+  background-color: #C8BFE7;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -142,36 +142,36 @@ fieldset[disabled] .btn-color.active {
   left: 0;
 }
 .overlay-colored-1 {
-  background-color: rgba(128, 0, 128, 0.1);
+  background-color: rgba(200, 191, 231, 0.2);
 }
 .overlay-colored-2 {
-  background-color: rgba(128, 0, 128, 0.2);
+  background-color: rgba(200, 191, 231, 0.2);
 }
 .overlay-colored-3 {
-  background-color: rgba(128, 0, 128, 0.3);
+  background-color: rgba(200, 191, 231, 0.3);
 }
 .overlay-colored-4 {
-  background-color: rgba(128, 0, 128, 0.4);
+  background-color: rgba(200, 191, 231, 0.4);
 }
 .overlay-colored-5 {
-  background-color: rgba(128, 0, 128, 0.5);
+  background-color: rgba(200, 191, 231, 0.5);
 }
 .overlay-colored-6 {
-  background-color: rgba(128, 0, 128, 0.6);
+  background-color: rgba(200, 191, 231, 0.6);
 }
 .overlay-colored-7 {
-  background-color: rgba(128, 0, 128, 0.7);
+  background-color: rgba(200, 191, 231, 0.7);
 }
 .overlay-colored-8 {
-  background-color: rgba(128, 0, 128, 0.8);
+  background-color: rgba(200, 191, 231, 0.8);
 }
 .overlay-colored-9 {
-  background-color: rgba(128, 0, 128, 0.9);
+  background-color: rgba(200, 191, 231, 0.9);
 }
 header.open,
 header.sticky,
 header.fixed-sticky {
-  background-color: rgba(128, 0, 128, 0.95);
+  background-color: rgba(200, 191, 231, 0.95);
 }
 .header .navigation > .nav > li > a:hover,
 .header .navigation > .nav > li.active > a,
@@ -183,14 +183,14 @@ header.fixed-sticky {
 .header .dropdown-menu > .active > a:focus,
 .header .dropdown-menu > li > a:hover,
 .header .dropdown-menu > li > a:focus {
-  color: #800080;
+  color: #C8BFE7;
   background-color: transparent;
 }
 nav.filter a.active,
 nav.filter a:active,
 nav.filter a:focus,
 nav.filter a:hover {
-  color: #800080;
+  color: #C8BFE7;
 }
 /* Skin pagination style */
 .pagination > .active > a,
@@ -200,13 +200,13 @@ nav.filter a:hover {
 .pagination > .active > a:focus,
 .pagination > .active > span:focus {
   border-color: #800080;
-  background-color: #800080;
+  background-color: #C8BFE7;
   color: #ffffff;
 }
 /*********************/
 /* Skin background color */
 .bg-color {
-  background-color: #800080;
+  background-color: #C8BFE7;
 }
 /*********************/
 /* Skin progress bar style */
