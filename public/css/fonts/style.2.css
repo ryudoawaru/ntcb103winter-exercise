@@ -16,7 +16,7 @@
  *
  */
 body {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family:  Arial,"Microsoft JhengHei", sans-serif;
   font-size: 13px;
 }
 h1,
@@ -46,5 +46,5 @@ h6,
 .h5,
 .h6,
 .heading-font {
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family:  Arial,"Microsoft JhengHei", sans-serif;
 }
