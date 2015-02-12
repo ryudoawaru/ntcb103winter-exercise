@@ -602,7 +602,8 @@ footer.content-section .container,
   display: inline-block;
 }
 .hero .hero-sub-title {
-  color: inherit;
+    margin :10px;
+  color:#59595a;
   letter-spacing: 1px;
   font-family: Georgia, Serif;
   font-size: 15px;
@@ -1585,8 +1586,10 @@ pre {
   background-color: #2e353d;
   border-color: #2e353d;
 }
+
 .panel-dark > .panel-heading + .panel-collapse .panel-body {
   border-top-color: #2e353d;
+  color: #2e353d;
 }
 .panel-dark > .panel-heading a {
   color: #ffffff;

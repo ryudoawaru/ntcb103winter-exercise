@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- /meta -->
 
-    <title>Sublime - Web Application Frontend Template</title>
+    <title>Resume</title>
 
     <!-- page level plugin styles -->
     <!-- /page level plugin styles -->
@@ -20,7 +20,7 @@
     <!-- /core styles -->
 
     <!-- template styles -->
-    <link rel="stylesheet" href="css/skin/purple.css" id="skin">
+    <link rel="stylesheet" href="css/skin/brown.css" id="skin">
     <link rel="stylesheet" href="css/fonts/opensans.css" id="font">
     <link rel="stylesheet" href="css/main.css">
     <!-- template styles -->
@@ -36,45 +36,57 @@
 </head>
 
 <body>
-    <header class="header">
-        <h1>李芝錡</h1>
+     <!-- menu navigation -->
+    <header class="header fixed-sticky header-dark">
         <div class="container">
             <nav class="heading-font">
+
+                <!-- branding -->
+                <div class="branding">
+                    <!-- toggle menu -->
+                    <button type="button" class="mobile-toggle">
+                        <span class="ti-menu"></span>
+                    </button>
+                    <!-- /toggle menu -->
+
+                    <a href="10236047.html" class="logo transition">SunnyLee </a>
+                </div>
+                <!-- /branding -->
+
+                <!-- links -->
                 <div class="navigation spy">
                     <ul class="nav">
-                        <li class="active ">
-                            <a href="404.html" class="transition">Resume</a>
-                        </li>
                         <li>
+                            <a href="10236047.html" class="transition">Resume</a>
+                        </li>
+                        <li class ="active ">
                             <a href="gallery.html" class="transition">My Design Works</a>
                         </li>
-                        <li>
-                            <a href="form.html" class="transition">Dorm Apply Form</a>
-                        </li>
+
                     </ul>
                 </div>
+                <!-- /links -->
             </nav>
         </div>
     </header>
+    <!-- /menu navigation -->
     <section id="top" class="content-section hero  ">
 
-        <div class="hero-parallax" style="background-image: url(img/128-218.jpg); background-repeat: repeat;"></div>
+        <div class="hero-parallax" style="background-image: url(img/128-32.jpg); background-repeat: repeat;"></div>
 
         <div class="container">
-            <div class="hero-container">
+            <div class="hero-container"  style="background-color: rgba(255, 255, 255,0.9); padding :80px;">
                 <img alt="證件照" src="img/9756003.jpg" class="img-circle">
-                <h1 class="animated bounceIn">簡介</h1>
-                <div class="hero-sub-title" data-animation="fadeInRight">
-
+                <h1 class="animated bounceIn">李芝錡<br/>Sunny Lee</h1>
+                <div class="hero-sub-title" data-animation="fadeInRight" >
                     <p>
                         目前就讀於國立臺北商業大學二技部二年級，主修資訊管理。<br />
-                        1993年3月20日出生<br />
+                        女性，1993年3月20日出生<br />
                         E-MAIL:SunnyLee320@gmail.com
                     </p>
+
                 </div>
-                       
-                <br />
-                <br />
+
                 <br />
                 <br />
                 <br />
@@ -85,10 +97,11 @@
                         </div>
                         <div id="panel-element-169480" class="panel-collapse in">
                             <div class="panel-body">
-                                <ul>
+                                <ul style="list-style-type: none;">
                                     <li>國立臺北商業大學二技部資訊管理系</li>
                                     <li>國立臺北商業技術學院五專部資訊管理科</li>
-                                    <li>桃園縣立福國中</li>
+                                    <li>桃園縣立福豐國中</li>
+                                    <li>桃園縣立光明國中</li>
                                     <li>桃園縣立南崁國小</li>
                                 </ul>
                             </div>
@@ -96,7 +109,7 @@
                     </div>
                     <div class="panel panel-dark">
                         <div class="panel-heading">
-                            <a class="panel-collapse" data-toggle="collapse" data-parent="#panel-522527" href="#panel-element-581688">工作經歷</a>
+                            <a class="panel-title" data-toggle="collapse" data-parent="#panel-522527" href="#panel-element-581688">工作經歷</a>
                         </div>
                         <div id="panel-element-581688" class="panel-collapse collapse">
                             <div class="panel-body">
@@ -111,7 +124,7 @@
                                     </ul>
                                     <div class="tab-content">
                                         <div class="tab-pane active" id="panel-841054">
-                                            <ul>
+                                            <ul style="list-style-type: none;">
                                                 <li>國立臺北商業技術學院課指組工讀生</li>
                                                 <li>國立臺北商業技術學院通識教育中心工讀生</li>
                                                 <li>國立臺北商業技術學院軍訓室100學年度評鑑海報製作</li>
@@ -121,7 +134,7 @@
                                         </div>
                                         <div class="tab-pane" id="panel-180567">
 
-                                            <ul>
+                                            <ul style="list-style-type: none;">
                                                 <li>臺北榮民總醫院桃園分院醫務企管室見習生</li>
                                                 <li>維揚法律事務所工讀生</li>
                                                 <li>蘆竹市地政事務所暑期工讀生</li>
@@ -130,6 +143,27 @@
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-dark">
+                        <div class="panel-heading">
+                            <a class="panel-title" data-toggle="collapse" data-parent="#panel-522527" href="#panel-element-10236047">證照</a>
+                        </div>
+                        <div id="panel-element-10236047" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <ul style="list-style-type: none;">
+                                    <li>TOEIC 670分</li>
+                                    <li>TQC中文輸入，新注音，進階級，61字/分鐘</li>
+                                    <li>丙級網頁設計</li>
+                                    <li>國際條碼管理技術士</li>
+                                    <li>乙級電腦軟體應用</li>
+                                    <li>OCP JP (Oracle Certified Professional, Java SE Programmer，原SCJP)</li>
+                                    <li>丙級電腦軟體應用</li>
+                                    <li>TQC-DA-Access 專業級</li>
+                                    <li>TQC-OA-Excel 專業級</li>
+                                    <li>丙級會計事務</li>
+                                </ul>
                             </div>
                         </div>
                     </div>

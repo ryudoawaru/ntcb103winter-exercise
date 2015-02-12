@@ -16,12 +16,12 @@
 /* Selected text */
 ::-moz-selection {
   background:#C8BFE7;
-  color: #ffffff;
+  color: #1a1a1a;
   text-shadow: none;
 }
 ::selection {
   background: #C8BFE7;
-  color: #ffffff;
+  color: #1a1a1a;
   text-shadow: none;
 }
 /*********************/
@@ -54,7 +54,7 @@ a:hover,
 }
 /* Skin button style */
 .btn-color {
-  color: #ffffff;
+color: #ffffff;
   background-color: #C8BFE7;
   border-color: #800080;
 }
@@ -63,23 +63,23 @@ a:hover,
 .btn-color:active,
 .btn-color.active,
 .open .dropdown-toggle.btn-color {
-  color: #ffffff;
+ color: #ffffff;
   background-color: #670066;
   border-color: #670066;
 }
 .btn-color.btn-outline {
   background-color: transparent;
-  color: #C8BFE7;
+ color: #ffffff;
 }
 .btn-color.btn-outline:hover,
 .btn-color.btn-outline:focus,
 .btn-color.btn-outline:active,
 .btn-color.btn-outline.active {
   background-color: #C8BFE7;
-  color: #ffffff;
+ color: #ffffff;
 }
 a.btn-color {
-  color: #ffffff;
+ color: #ffffff;
 }
 .btn-color:active,
 .btn-color.active,
@@ -108,12 +108,12 @@ fieldset[disabled] .btn-color.active {
 /* Skin text and dropcap color style */
 .color,
 .drop-cap {
-  color: #C8BFE7;
+  color: #ffffff;
 }
 /*********************/
 .drop-cap.boxed {
   background-color: #C8BFE7;
-  color: #fff;
+ color: #1a1a1a;
 }
 .portfolio-item .overlay-hover {
   background-color: #C8BFE7;
@@ -176,21 +176,23 @@ header.fixed-sticky {
 .header .navigation > .nav > li > a:hover,
 .header .navigation > .nav > li.active > a,
 .nav .open > a {
-  color: rgba(255, 102, 255, 0.95);
+  color: #1a1a1a;
+   background-color:rgba(200, 191, 231, 0.8);
 }
 .header .dropdown-menu > .active > a,
 .header .dropdown-menu > .active > a:hover,
 .header .dropdown-menu > .active > a:focus,
 .header .dropdown-menu > li > a:hover,
 .header .dropdown-menu > li > a:focus {
-  color: #C8BFE7;
-  background-color: transparent;
+ color: #1a1a1a;
+  background-color:rgba(200, 191, 231, 0.4);
 }
 nav.filter a.active,
 nav.filter a:active,
 nav.filter a:focus,
 nav.filter a:hover {
   color: #C8BFE7;
+  background-color:rgb(128, 128, 128);
 }
 /* Skin pagination style */
 .pagination > .active > a,
@@ -201,7 +203,7 @@ nav.filter a:hover {
 .pagination > .active > span:focus {
   border-color: #800080;
   background-color: #C8BFE7;
-  color: #ffffff;
+  color: #1a1a1a;
 }
 /*********************/
 /* Skin background color */
