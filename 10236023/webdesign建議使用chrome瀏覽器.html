@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+<meta charset="utf-8">
+<title>webdesign</title>
+<style>
+	body {
+		background:url(images/background.png) no-repeat center center fixed;
+		}
+	header{
+		width:900px;
+		height:90px;
+		background:rgba(42, 66, 96, 0.8);
+		margin-left: 217px;
+	}
+	.title{
+		margin-left:20px;
+		margin-top: 5px;}
+
+	
+	footer{
+		width:900px;
+		height:90px;
+		background:rgba(42, 66, 96, 0.8);
+		margin-left: 217px;
+		margin-top: 20px;
+		}	
+	.subtitle{
+		margin-left:120px;
+		margin-top:15px;}	
+	.block1{
+	background:rgba(0, 0, 0, 0.6);
+    margin-left:250px;
+	margin-top: 15px;
+    width: 280px;
+    height: 130px;
+    border: 1px solid rgba(0,0,0,0.3);}
+	.underblock1{
+		border:2px solid #87C467;
+		margin:5px;
+		height:115px;
+		color:#87C467;
+		font-family: "微軟正黑體";
+		font-weight: bold;
+		font-size: 20px;
+		}
+		
+	.block2{
+	background:rgba(0, 0, 0, 0.6);
+    margin-left:250px;
+	margin-top: 15px;
+    width: 500px;
+    height: 265px;
+    border: 1px solid rgba(0,0,0,0.3);}
+	.underblock2{
+		border:2px solid #D9D95C;
+		margin:5px;
+		height:250px;
+		}
+		
+		
+	/*以下為第一個區塊的內容設計*/
+	form{
+		margin-left:15px;
+		margin-top:0px;
+		}
+	select{
+	color: #BA253B;
+	height: 15px;
+	font: #C03F4E;
+	font-weight: bold;
+	border: rgba(160, 204, 131, 0.7);
+	margin-left:4px;
+	background: rgba(160, 204, 131, 0.7);
+	}	
+	.account, .password{
+	color: #BA253B;
+	font-weight:bold;
+	height: 15px;
+	border: rgba(160, 204, 131, 0.7);
+	margin-left:10px;
+	background: rgba(160, 204, 131, 0.7);
+	}	
+	.botton{
+		width: 230px;
+		height: 20px;
+		color: #131D3D;
+		font-weight: bold;
+		border: rgba(160, 204, 131, 0.7);
+		font-family:"微軟正黑體";
+		font-weight: bold;
+		}	
+		
+	/*以下為第二個區內容塊的設計*/	
+	.event{
+		color:#D9D95C;
+		font-size: 24px;
+		font-weight: bold;
+		font-family:"微軟正黑體";
+		padding-top: 5px;
+		padding-bottom: 2px;
+		padding-left: 100px;
+		border-bottom:2px dashed #D9D95C;
+		margin-left:20px;
+		margin-right: 20px;
+		}
+		
+	.date{
+		display: inline;
+		padding-left: 190px;
+		color:#D9D95C;
+		font-size: 24px;
+		font-weight: bold;
+		font-family:"微軟正黑體";
+			}
+		
+	.items{
+		list-style-type: none;
+		padding-left: 20px;
+		padding-right: auto;
+		}
+	.items a{
+		list-style-type: none;
+		color:#D9D95C;
+		font-size:17px;
+		font-family:"微軟正黑體";
+		target="_blank"
+		}
+	.items a:hover{
+		color: #6B8EC6;}
+		
+	time{
+		color: #D9D95C;
+		font-family:"微軟正黑體";
+		}
+			
+</style>
+
+
+ 
+
+ <body>
+ 
+  <section>
+		<header>
+        	<img src="images/title.png" class="title">
+   		</header>
+  </section>
+ 
+  <div class="block1">
+    <div class="underblock1" >
+    <form>
+    <label for="status">身分</label>
+    <select id="status">
+      <option value="student">學生/住宿生</option>
+      <option value="teacher">管理員</option>
+    </select>
+    <br/>
+    帳號<input type="text" placeholder="請輸入學號" class="account" required />
+    <br/>
+        密碼<input type="password" placeholder="請輸入密碼" class="password" required />
+        <input type="submit" class="botton" value="登入" />
+    </form>
+    </div>
+  </div>
+  
+  
+  <div class="block2">     
+    <div class="underblock2" >
+      <div class="event">
+        公告
+        <div class="date">
+        日期
+        </div>
+        </div>
+      <ul class="items">
+                <li><a href="http://www.ntub.edu.tw" target="_blank">開學注意事項 選課時間,103學年度第二......</a> <time>2015-02-11</time> </li>
+   <li><a href="http://www.ntub.edu.tw" target="_blank">已可開始註冊繳費請到台灣銀行官網學雜...</a> <time>2015-02-11</time> </li>
+        </li>
+        </ul>
+    </div>
+  </div>
+  <section>
+		<footer>
+    		<img src="images/subtitle.png" class="subtitle">
+   		</footer>
+</section>
+ </body>
+</html>
