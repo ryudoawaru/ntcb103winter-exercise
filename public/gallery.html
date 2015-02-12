@@ -3,7 +3,7 @@
 
 <head>
     <!-- meta -->
-    <meta charset="utf-8">
+    <meta charset="big-5">
     <meta name="description" content="flat, clean, responsive, application frontend template built with bootstrap 3">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- /meta -->
@@ -39,100 +39,35 @@
 
     <!-- load modernizer -->
     <script src="plugins/modernizr.js"></script>
+    <style>
+        .fontcolor {
+            color: #b6ff00;
+            font-size:14px;
+            font-weight :bold ;
+        }
+        body {
+            font-family:'Microsoft JhengHei';
+        }
+
+    </style>
 </head>
 
 <!-- body -->
 
-<body>
+<body >
     <!-- page loading spinner -->
     <div class="pageload">
         <div class="loader"></div>
     </div>
     <!-- /page loading spinner -->
 
-    <!-- menu navigation -->
-    <header class="header fixed-sticky header-dark">
-        <div class="container">
-            <nav class="heading-font">
 
-                <!-- branding -->
-                <div class="branding">
-                    <!-- toggle menu -->
-                    <button type="button" class="mobile-toggle">
-                        <span class="ti-menu"></span>
-                    </button>
-                    <!-- /toggle menu -->
-
-                    <a href="index.html" class="logo transition">
-                        Sublime
-                    </a>
-                </div>
-                <!-- /branding -->
-
-                <!-- links -->
-                <div class="navigation spy">
-                    <ul class="nav">
-                        <li>
-                            <a href="index.html#how" class="transition">How it works</a>
-                        </li>
-                        <li>
-                            <a href="index.html#features" class="transition">Features</a>
-                        </li>
-                        <li>
-                            <a href="index.html#reviews" class="transition">Reviews</a>
-                        </li>
-                        <li>
-                            <a href="pricing.html" class="transition">Pricing</a>
-                        </li>
-                        <li class="dropdown show-on-hover active">
-                            <a href="javascript:;" class="ignore" data-toggle="dropdown"><span>Pages</span></a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="contact.html" class="transition">Support (Working Contact Form)</a>
-                                </li>
-                                <li class="active">
-                                    <a href="gallery.html" class="transition">Gallery</a>
-                                </li>
-                                <li>
-                                    <a href="team.html" class="transition">Meet The Team</a>
-                                </li>
-                                <li>
-                                    <a href="elements.html" class="transition">Elements</a>
-                                </li>
-                                <li>
-                                    <a href="blog.html" class="transition">Blog</a>
-                                </li>
-                                <li>
-                                    <a href="post.html" class="transition">Single blog item</a>
-                                </li>
-                                <li>
-                                    <a href="feature.html" class="transition">Feature View</a>
-                                </li>
-                                <li>
-                                    <a href="404.html" class="transition">Frontend 404 page</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="javascript:;">Login</a>
-                        </li>
-                        <li>
-                            <a href="javascript:;" class="nav-btn btn btn-success btn-rounded">Sign Up</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /links -->
-            </nav>
-        </div>
-
-    </header>
-    <!-- /menu navigation -->
 
 
 
 
     <!-- portfolio -->
-    <section id="portfolio" class="content-section portfolio light">
+    <section id="portfolio" class="content-section portfolio light" style="background-color:#fcfa9e">
 
         <div class="container-fluid no-p">
 
@@ -165,180 +100,262 @@
             <!-- ajax portfolio -->
 
             <!-- isotope portfolio filter -->
+            <h1 style ="text-align:center;font-family: Aparajita;font-weight :bold ;color:#5660bc">Woollim</h1>
             <nav class="filter p25">
                 <ul data-option-key="filter">
-                    <li><a class="active" data-filter="*" href="javascript:;">All</a>
+                    <li><a href="javascript:;" data-filter=".all" title="Web Design"; >唱片公司簡介</a>
                     </li>
-                    <li><a href="javascript:;" data-filter=".web" title="Web Design">Web</a>
+                    <li><a href="javascript:;" data-filter=".web" title="Web Design">公司所屬成員</a>
                     </li>
-                    <li><a href="javascript:;" data-filter=".brand" title="Branding">Branding</a>
-                    </li>
-                    <li><a href="javascript:;" data-filter=".photo" title="Photography">Photography</a>
-                    </li>
-                    <li><a href="javascript:;" data-filter=".motion" title="Videography">Videography</a>
+                    <li><a href="javascript:;" data-filter=".brand" title="Branding">INFINITE成員介紹</a>
                     </li>
                 </ul>
             </nav>
             <!-- /isotope portfolio filter -->
 
+
             <!-- portfolio elements -->
             <ul class="isotope">
 
+
                 <!-- portfolio item -->
-                <li class="portfolio-item web brand">
+                <li class="portfolio-item all">
                     <a href="work/project1.html">
-                        <img src="img/thumb.jpg" alt="thumbnail">
+                        <img src="img/公司logo.png" alt="thumbnail">
                         <div class="overlay-hover"></div>
                         <span class="metadata">
-                            <i class="title heading-font">On Stage</i>
-                            <small><em>branding / web</em></small>
+                            <i class="title heading-font">woollim公司logo</i>
+                            <small><em></em></small>
                         </span>
                     </a>
                 </li>
                 <!-- /portfolio item -->
 
                 <!-- portfolio item -->
-                <li class="portfolio-item motion web photo">
-                    <a href="work/project2.html">
-                        <img src="img/thumb.jpg" alt="thumbnail">
+                <li class="portfolio-item all">
+                    
+                        <img src="img/公司圖像.jpg" alt="thumbnail">
                         <div class="overlay-hover"></div>
                         <span class="metadata">
-                            <i class="title heading-font">Pumpkin Patch</i>
-                            <small><em>motion / web</em></small>
+                            <i class="title heading-font"；style="font-family: Aparajita;font-weight :bold ; color:#ff6a00;">成立日期：2003年9月
+                                <br />
+                                創辦人：李正業<br />
+                                電話：02-335-4611
+                                <br />
+                                地址：首爾市麻浦區城山洞21-25號103號
+                                <br />
+                                創立初期的音樂風格為Rock和Hip-Hop，而後於2010年推出首組偶像男子團體INFINITE，成為韓國流行音樂（K-pop）主流經紀公司之一。
+                            </i>
+
+                            <small><em></em></small>
                         </span>
-                    </a>
+                   
                 </li>
                 <!-- /portfolio item -->
 
-                <!-- portfolio item -->
-                <li class="portfolio-item brand">
-                    <a href="work/project3.html">
-                        <img src="img/thumb.jpg" alt="thumbnail">
-                        <div class="overlay-hover"></div>
-                        <span class="metadata">
-                            <i class="title heading-font">Vintage Sofa</i>
-                            <small><em>branding</em></small>
-                        </span>
-                    </a>
-                </li>
-                <!-- /portfolio item -->
 
                 <!-- portfolio item -->
-                <li class="portfolio-item motion brand web photo">
-                    <a href="work/project4.html">
-                        <img src="img/thumb.jpg" alt="thumbnail">
-                        <div class="overlay-hover"></div>
-                        <span class="metadata">
-                            <i class="title heading-font">Lightroom</i>
-                            <small><em>branding / motion / web</em></small>
-                        </span>
-                    </a>
-                </li>
-                <!-- /portfolio item -->
-
-                <!-- portfolio item -->
-                <li class="portfolio-item">
-                    <a href="work/project5.html">
-                        <img src="img/thumb.jpg" alt="thumbnail">
-                        <div class="overlay-hover"></div>
-                        <span class="metadata">
-                            <i class="title heading-font">Timepiece BW</i>
-                            <small><em>web</em></small>
-                        </span>
-                    </a>
-                </li>
-                <!-- /portfolio item -->
-
-                <!-- portfolio item -->
-                <li class="portfolio-item motion web">
-                    <a href="work/project6.html">
-                        <img src="img/thumb.jpg" alt="thumbnail">
-                        <div class="overlay-hover"></div>
-                        <span class="metadata">
-                            <i class="title heading-font">Gamblers Den</i>
-                            <small><em>motion / web</em></small>
-                        </span>
-                    </a>
-                </li>
-                <!-- /portfolio item -->
-
-                <!-- portfolio item -->
-                <li class="portfolio-item motion brand">
-                    <a href="work/project7.html">
-                        <img src="img/thumb.jpg" alt="thumbnail">
-                        <div class="overlay-hover"></div>
-                        <span class="metadata">
-                            <i class="title heading-font">Classroom</i>
-                            <small><em>branding / motion / web</em></small>
-                        </span>
-                    </a>
-                </li>
-                <!-- /portfolio item -->
-
-                <!-- portfolio item -->
-                <li class="portfolio-item brand motion">
-                    <a href="work/project8.html">
-                        <img src="img/thumb.jpg" alt="thumbnail">
-                        <div class="overlay-hover"></div>
-                        <span class="metadata">
-                            <i class="title heading-font">Showroom</i>
-                            <small><em>branding / motion</em></small>
-                        </span>
-                    </a>
+                <li class="portfolio-item all">
+                    <img src="img/NIT.jpg" alt="thumbnail">
+                    <div class="overlay-hover"></div>
+                    <span class="metadata">
+                        <i class="title heading-font">公司咖啡廳
+                            <br/>
+                           地址:woollim公司對面。
+                        </i>
+                        <small><em></em></small>
+                    </span>
                 </li>
                 <!-- /portfolio item -->
 
                 <!-- portfolio item -->
                 <li class="portfolio-item web">
-                    <a href="work/project9.html">
-                        <img src="img/thumb.jpg" alt="thumbnail">
-                        <div class="overlay-hover"></div>
-                        <span class="metadata">
-                            <i class="title heading-font">Dinner Table</i>
-                            <small><em>web</em></small>
-                        </span>
-                    </a>
+                    <img src="img/1.jpg" alt="thumbnail">
+                    <div class="overlay-hover"></div>
+                    <span class="metadata">
+                        <i class="title heading-font">INFINITE</i>
+                        <small><em></em>INFINITE是韓國的七人男子偶像團體，由聖圭、東雨、優鉉、Hoya、成烈、L和成鍾七名成員組成，由韓國團體Epik High成員Tablo培訓，原所屬公司為Woollim娛樂，2013年8月8日正式成為SM C&C旗下子公司Woollim Label的旗下藝人，2010年6月9日以歌曲〈再次回來吧〉正式出道。團體標誌為代表無限大的符號「∞」，會隨著每次專輯和活動概念而更換視覺設計。團名「INFINITE」的含義是希望團體和成員在音樂或其他方面均具有無界限的可能性，官方歌迷名稱為「INSPIRIT」，有激勵、鼓勵的意思，其中「IN」指INFINITE，「SPIRIT」則指心靈。應援色為「珍珠金屬金色」。另有子團體INFINITE H、INFINITE F、Toheart。</small>
+                    </span>
                 </li>
                 <!-- /portfolio item -->
 
                 <!-- portfolio item -->
-                <li class="portfolio-item motion">
-                    <a href="work/project10.html">
-                        <img src="img/thumb.jpg" alt="thumbnail">
-                        <div class="overlay-hover"></div>
-                        <span class="metadata">
-                            <i class="title heading-font">Crusty Bread</i>
-                            <small><em>motion</em></small>
-                        </span>
-                    </a>
+                <li class="portfolio-item  web">
+                    <img src="img/2.jpg" alt="thumbnail">
+                    <div class="overlay-hover"></div>
+                    <span class="metadata">
+                        <i class="title heading-font">LOVELYZ</i>
+                        <small><em>Lovelyz是Woollim Entertainment於2014年11月12日所推出的新8人女子團體，由BabySoul、劉智嬡、李美珠、徐智秀、Kei、JIN、柳秀靜、鄭藝仁等八名成員組成，11月12日以《Candy Jelly Love》正式出道、11月17日發行正規一輯《Girls' Invasion》。</em></small>
+                    </span>
                 </li>
                 <!-- /portfolio item -->
 
                 <!-- portfolio item -->
-                <li class="portfolio-item motion brand">
-                    <a href="work/project7.html">
-                        <img src="img/thumb.jpg" alt="thumbnail">
-                        <div class="overlay-hover"></div>
-                        <span class="metadata">
-                            <i class="title heading-font">Classroom</i>
-                            <small><em>branding / motion / web</em></small>
-                        </span>
-                    </a>
+                <li class="portfolio-item web ">
+                    <img src="img/tasty.jpg" alt="thumbnail">
+                    <div class="overlay-hover"></div>
+                    <span class="metadata">
+                        <i class="title heading-font">TASTY</i>
+                        <small><em>Tasty，亞洲雙人舞蹈偶像組合，雙胞胎組合，成員為大龍、小龍，出生於1988年02月25日。原屬經紀公司為Woollim Entertainment於2013年8月8日正式屬於SM C&C旗下子公司Woollim Label所屬藝人，出道日期為2012年8月9日，常被稱為Tasty2wins，為INFINITE的師弟團。Tasty的官方歌迷名稱為Twings，意為Twins與wings的結合。
+
+Tasty出生於中國吉林省和龍市，19歲到韓國參加JYP面試並成功被錄取，之後被公司安排到美國紐約接受舞蹈訓練並學習英語，三年後又回到韓國繼續受訓三年。在JYP Entertainment做練習生的時候，擔任過JYP(朴軫泳)的伴舞 。2012年8月9日發行首張音樂專輯《Spectrum》，主打歌為《You know me》。</em></small>
+                    </span>
+
+                </li>
+                <!-- /portfolio item -->
+
+
+
+
+                <!-- portfolio item -->
+                <li class="portfolio-item brand ">
+
+                    <img src="img/kyu.jpg" alt="thumbnail">
+                    <div class="overlay-hover"></div>
+                    <span class="metadata">
+                        <i class="title heading-font">金聖圭</i>
+                        <br />
+                        <p class="fontcolor">
+                        <small><em>本名:金聖圭
+                            <br />
+                            出生日期:1989年4月28日<br />
+                            出生地:韓國全羅北道全州市<br />
+                            隊內擔當:隊長、主唱<br />
+                            2012年11月7日，隊長金聖圭以本名展開個人活動，與樂團Nell成員合作發行首張個人專輯，主打歌為《60秒》，後續曲為《I Need You》。</em></small>
+                  </p>
+                              </span>
+
+                </li>
+                <!-- /portfolio item -->
+                <!-- portfolio item -->
+                <li class="portfolio-item brand ">
+
+                    <img src="img/woo.jpg" alt="thumbnail">
+                    <div class="overlay-hover"></div>
+                    <span class="metadata">
+                        <i class="title heading-font">張東雨</i>
+                        <br />
+                        <p class="fontcolor">
+                        <small><em>本名:張東雨
+                            <br />
+                            出生日期:1990年11月22日<br />
+                            出生地:韓國京畿道九里市<br />
+                            隊內擔當:主Rapper、副領舞<br />
+                            2013年1月10日，東雨、Hoya以子團INFINITE H之名展開活動，H代表著Hip-Hop，主打歌為《Special Girl》，由知名嘻哈音樂人Primary參與製作。</em></small>
+                   </p>
+                             </span>
+
                 </li>
                 <!-- /portfolio item -->
 
                 <!-- portfolio item -->
-                <li class="portfolio-item brand motion">
-                    <a href="work/project8.html">
-                        <img src="img/thumb.jpg" alt="thumbnail">
-                        <div class="overlay-hover"></div>
-                        <span class="metadata">
-                            <i class="title heading-font">Showroom</i>
-                            <small><em>branding / motion</em></small>
-                        </span>
-                    </a>
+                <li class="portfolio-item brand ">
+
+                    <img src="img/hyun.jpg" alt="thumbnail">
+                    <div class="overlay-hover"></div>
+                    <span class="metadata">
+                        <i class="title heading-font">南優鉉</i>
+                        <br />
+                        <p class="fontcolor">
+                        <small><em>本名:南優賢
+                            <br />
+                            出生日期:1991年02月08日<br />
+                            出生地:韓國首爾特別市<br />
+                            隊內擔當:主唱、撒嬌擔當<br />
+                            2014年3月10日，優鉉與SHINee成員Key結成企劃組合Toheart並發行首張迷你專輯，主打歌為《Delicious》，後續曲為《Tell Me Why》。</em></small>
+                    </p>
+                            </span>
+
                 </li>
                 <!-- /portfolio item -->
+
+
+                <!-- portfolio item -->
+                <li class="portfolio-item brand ">
+
+                    <img src="img/hoya.jpg" alt="thumbnail">
+                    <div class="overlay-hover"></div>
+                    <span class="metadata">
+                        <i class="title heading-font">HOYA</i>
+                        <br />
+                        <p class="fontcolor">
+                        <small><em>本名:李浩沅
+                            <br />
+                            出生日期:1991年03月28日<br />
+                            出生地:韓國慶尚南道昌原市<br />
+                            隊內擔當:主領、舞副Rapper<br />
+                            2013年1月10日，東雨、Hoya以子團INFINITE H之名展開活動，H代表著Hip-Hop，主打歌為《Special Girl》，由知名嘻哈音樂人Primary參與製作。</em></small>
+                    </p>
+                            </span>
+
+                </li>
+                <!-- /portfolio item -->
+
+                <!-- portfolio item -->
+                <li class="portfolio-item brand ">
+
+                    <img src="img/YEOL.jpg" alt="thumbnail">
+                    <div class="overlay-hover"></div>
+                    <span class="metadata">
+                        <i class="title heading-font">李成烈</i>
+                        <br />
+                        <p class="fontcolor">
+                        <small><em>本名:李成烈
+                            <br />
+                            出生日期:1991年08月27日<br />
+                            出生地:韓國京畿道龍仁市<br />
+                            隊內擔當:副唱、身高擔當<br />
+                            2014年11月19日，成烈、L、成鍾以子團INFINITE F之名展開活動，F代表著Face、Flower、Fighting、Fun，主打歌為《心跳》。</em></small>
+                    </p>
+                            </span>
+
+                </li>
+                <!-- /portfolio item -->
+
+
+                <!-- portfolio item -->
+                <li class="portfolio-item brand ">
+
+                    <img src="img/L.jpg" alt="thumbnail">
+                    <div class="overlay-hover"></div>
+                    <span class="metadata">
+                        <i class="title heading-font">L</i>
+                        <br />
+                        <p class="fontcolor">
+                        <small><em>本名:金明洙<br />
+                            出生日期:1992年03月13日<br />
+                            出生地:韓國首爾特別市<br />
+                            隊內擔當:副唱、門面擔當<br />
+                2014年11月19日，成烈、L、成鍾以子團INFINITE F之名展開活動，F代表著Face、Flower、Fighting、Fun，主打歌為《心跳》。</em></small>
+                        </p>
+                    </span>
+
+                </li>
+                <!-- /portfolio item -->
+
+                <!-- portfolio item -->
+                <li class="portfolio-item brand ">
+
+                    <img src="img/JUNG.jpeg" alt="thumbnail">
+                    <div class="overlay-hover"></div>
+                    <span class="metadata">
+                        <i class="title heading-font">李成鍾</i>
+                        <br />
+                        <p class="fontcolor">
+                            <small><em>本名:李成鍾
+                                <br />
+                                出生日期:1993年09月03日<br />
+                                出生地:韓國光州廣域市<br />
+                                隊內擔當:副唱、忙內<br />
+                                2014年11月19日，成烈、L、成鍾以子團INFINITE F之名展開活動，F代表著Face、Flower、Fighting、Fun，主打歌為《心跳》。</em></small>
+
+                        </p>
+                    </span>
+
+                </li>
+                <!-- /portfolio item -->
+
+
 
             </ul>
             <!-- portfolio elements -->
@@ -363,24 +380,10 @@
 
                     <br>
 
-                    <a class="btn btn-social-icon btn-facebook btn-rounded btn-sm ml5 mr5" href="javascript:;">
-                        <i class="fa fa-facebook"></i>
-                    </a>
-
-                    <a class="btn btn-social-icon btn-twitter btn-rounded btn-sm ml5 mr5" href="javascript:;">
-                        <i class="fa fa-twitter"></i>
-                    </a>
-
-                    <a class="btn btn-social-icon btn-google-plus btn-rounded btn-sm ml5 mr5" href="javascript:;">
-                        <i class="fa fa-google-plus"></i>
-                    </a>
 
                 </div>
 
-                <div class="col-sm-12 mb25">
-                    <p>Made with&nbsp;<i class="ti-heart text-danger"></i>&nbsp;in Paris France</p>
-                    <small class="show">&copy;&nbsp;Copyright Sub<span class="color">Lime</span>&nbsp;LLC&nbsp;<span class="year"></span>. All rights reserved</small>
-                </div>
+                
             </div>
         </div>
     </footer>
