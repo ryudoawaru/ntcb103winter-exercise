@@ -48,13 +48,21 @@
  */
 /* Body reset */
 body {
-  background: #ffffff;
+  /*background-image:url(http://img.taopic.com/uploads/allimg/140325/235099-140325022514100.jpg);*/
+  background:#ffffff;
   color: #59595a;
   font-weight: 400;
   font-size: 13px;
   line-height: 2;
   -webkit-font-smoothing: antialiased;
 }
+.abc{
+  background-image:url(http://img.taopic.com/uploads/allimg/140325/235099-140325022514100.jpg);
+  width:100%;
+  height:3600px;
+  opacity:0.2;
+}
+.def{margin-top:-3600px;}
 h1,
 h2,
 h3,
@@ -70,6 +78,9 @@ h6,
   line-height: 1.1;
   color: #454545;
   letter-spacing: 1px;
+}
+h6{
+  font-size:18px;
 }
 /* hr restyled*/
 hr {
@@ -560,7 +571,7 @@ footer.content-section .container,
 .hero {
   min-height: 150px;
   color: #fff;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 1);
   z-index: 999;
   padding: 0;
   text-align: center;
@@ -698,7 +709,7 @@ footer.content-section .container,
   -webkit-backface-visibility: hidden;
 }
 .overlay-darken-1 {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 .overlay-darken-2 {
   background-color: rgba(0, 0, 0, 0.2);
@@ -707,13 +718,13 @@ footer.content-section .container,
   background-color: rgba(0, 0, 0, 0.3);
 }
 .overlay-darken-4 {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 .overlay-darken-5 {
   background-color: rgba(0, 0, 0, 0.5);
 }
 .overlay-darken-6 {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 .overlay-darken-7 {
   background-color: rgba(0, 0, 0, 0.7);
@@ -2311,7 +2322,7 @@ fieldset[disabled] .btn-white.active {
 .btn-primary {
   color: white;
   background-color: #1582dc;
-  border-color: #1582dc;
+  border-color: #FF00FC;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -2320,11 +2331,11 @@ fieldset[disabled] .btn-white.active {
 .open .dropdown-toggle.btn-primary {
   color: white;
   background-color: #1374c5;
-  border-color: #1374c5;
+  border-color: #FF00FC;
 }
 .btn-primary.btn-outline {
   background-color: transparent;
-  color: #1582dc;
+  color: #FF00FC;
 }
 .btn-primary.btn-outline:hover,
 .btn-primary.btn-outline:focus,
@@ -3923,6 +3934,7 @@ fieldset[disabled] .btn-yahoo.active {
 }
 .post .post-title h1 a {
   color: #1a1a1a;
+  font-weight:bold;
 }
 .post .post-title a {
   color: #59595a;
