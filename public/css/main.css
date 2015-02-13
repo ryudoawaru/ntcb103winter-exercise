@@ -52,7 +52,7 @@ body {
   color: #59595a;
   font-weight: 400;
   font-size: 13px;
-  line-height: 2;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
 h1,
@@ -318,7 +318,7 @@ blockquote p {
 .header.sticky,
 .header.fixed-sticky {
   position: fixed;
-  top: 0;
+  top: 0;bammerb
   margin: 0;
 }
 .header.sticky nav,
@@ -472,13 +472,13 @@ section {
 }
 .content-section > .container,
 .content-section > .container-fluid {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 10px;
 }
 footer.content-section .container,
 .content-section.banner .container {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 5px;
+  padding-bottom: px;
 }
 .content-section.portfolio .container-fluid {
   padding-top: 100px;
@@ -514,10 +514,18 @@ footer.content-section .container,
 .color-inherit .h3,
 .color-inherit .h4,
 .color-inherit .h5,
-.color-inherit .h6,
-.color-inherit .heading-font {
-  color: inherit;
+.color-inherit .h6 {
+  color: #003399;
 }
+
+.color-inherit .heading-font {
+  color: #333366;
+  font-size: 50px;
+  font-family:Tw Cen MT Condensed;
+  text-shadow:2px 2px 2px #ccc;
+}
+
+
 .color-inherit .section-title,
 .color-inherit .section-title h4,
 .color-inherit .section-title h5 {
@@ -558,7 +566,8 @@ footer.content-section .container,
  *
  */
 .hero {
-  min-height: 150px;
+  /*min-height: 150px;*/
+  height: 50px;
   color: #fff;
   color: rgba(255, 255, 255, 0.8);
   z-index: 999;
@@ -576,7 +585,9 @@ footer.content-section .container,
   position: relative;
   z-index: 1000;
   width: 100%;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .hero .hero-title {
   color: inherit;
@@ -590,7 +601,7 @@ footer.content-section .container,
   display: inline-block;
 }
 .hero .hero-sub-title {
-  color: inherit;
+  color: #003399;
   letter-spacing: 1px;
   font-family: Georgia, Serif;
   font-size: 15px;
@@ -2420,8 +2431,8 @@ fieldset[disabled] .btn-warning.active {
  */
 .btn-success {
   color: white;
-  background-color: #15db81;
-  border-color: #15db81;
+  background-color: rgba(255, 255, 204, 1);
+  border-color: #ffffcc;
 }
 .btn-success:hover,
 .btn-success:focus,
@@ -2444,7 +2455,7 @@ fieldset[disabled] .btn-warning.active {
   color: white;
 }
 a.btn-success {
-  color: white;
+  color: #0099cc;
 }
 .btn-success:active,
 .btn-success.active,

@@ -164,14 +164,14 @@ fieldset[disabled] .btn-color.active {
 }
 .overlay-colored-8 {
   background-color: rgba(21, 130, 220, 0.8);
-}
+}nono
 .overlay-colored-9 {
   background-color: rgba(21, 130, 220, 0.9);
 }
 header.open,
 header.sticky,
 header.fixed-sticky {
-  background-color: rgba(21, 130, 220, 0.95);
+  background-color: #0099cc;
 }
 .header .navigation > .nav > li > a:hover,
 .header .navigation > .nav > li.active > a,
